@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgba(187, 185, 178, 0.344);
+    margin: 0;
+    padding: 20px;
+    transition: background-color 0.5s ease;
+}
+
+p {
+    font-size: 18px;
+    margin: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #d69a69;
+    color: white;
+}
+
+button:disabled {
+    background-color: #bdbcbc;
+    cursor: not-allowed;
+}
+
+.buybtn {
+    background-color: #c2b04a;;
+}
+
+#win-image {
+    width: 250px;
+    margin-top: 10px;
+    border-radius: 8px;
+}

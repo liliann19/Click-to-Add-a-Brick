@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <h1>Click to Add a Brick</h1>
+    <p id="score-display">Bricks: 0</p>
+    <p id="rate-display">Bricks per click: 1</p>
+    <p id="rates-display">Bricks per second: 0</p>
+    <button id="click-btn">Lay a Brick!</button>
+    <h2>Upgrades</h2>
+    <div id="upgrades"></div>
+    <h2>Special Upgrades (One time)</h2>
+    <div id="supgrades"></div>
+    <div id="win" style="display: none;">
+        <h2>Completed!</h2>
+        <p>Your building is finished!</p>
+        <img id="win-image" src="brick-house.png" alt="Brick House">
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
